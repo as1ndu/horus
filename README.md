@@ -1,2 +1,10 @@
-# horus
-A minimal Hugo theme
+# Black & Light
+
+## Features
+
+## Installation
+
+## The config file
+
+## License
+
