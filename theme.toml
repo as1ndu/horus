@@ -1,0 +1,12 @@
+name = "Horus"
+license = "MIT"
+licenselink = "https://github.com/as1ndu/horus/blob/master/LICENSE"
+description = "A Minimalist Theme For Thinkers"
+homepage = "https://github.com/as1ndu/horus"
+tags = ["responsive", "minimal", "simple", "personal", "white"]
+features = []
+min_version = 0.17
+
+[author]
+  name = "Asindu"
+  homepage = "https://asindu.drileba.capital"
