@@ -2,7 +2,7 @@
 
   <span class="credit">
     powered by
-    <a href="https://github.com/{{ .Site.Params.blogRepository }}">
+    <a href="https://github.com/as1ndu/horus">
       Horus Theme
     </a>
     & 
@@ -10,6 +10,8 @@
       Hugo
     </a>
   </span>
-
+  {{ if .Params.latex }}
+    {{ partial "latex.html" . }} 
+  {{ end }}
 </body>
 </html>

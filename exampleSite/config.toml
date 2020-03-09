@@ -1,0 +1,32 @@
+baseurl = "https://example.com/"
+title = "Horus Theme Documentation"
+author = "as1ndu"
+canonifyurls = true
+languagecode = "en"
+theme = "horus"
+publishDir = "docs"
+# disqusShortname = "disqus-username"
+pygmentsstyle       = "monokai"
+pygmentscodefences  = true
+# pygmentOptions = "linenos=table"
+
+[params]
+  sitename = "Horus Theme Documentation"
+  description = "A Hugo theme for thinkers"
+  blogHeader = " “I hope this documentation helps you learn about the features of the horus theme.”  ― Asindu"
+
+[permalinks]
+  posts = "/:year/:month/:slug"
+
+[[menu.main]]
+    name = "Github"
+    url  = "https://github.com/as1ndu/horus-theme"
+
+[[menu.main]]
+    name = "Author's Blog"
+    url  = "https://asindu.drileba.capital"
+
+
+languageCode = "en-us"
+copyright = "Copyright (C) 2019 Asindu Willfred Drileba. Permission to redistribute without alteration hereby granted."
+
